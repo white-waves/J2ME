@@ -1,2 +1,2 @@
-# j2me
-📞 • Official j2me client for White Waves game.
+# J2ME
+📞 • Official J2ME client for White Waves game.
