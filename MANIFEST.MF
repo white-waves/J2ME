@@ -1,6 +1,7 @@
 MIDlet-Name: White Waves
 MIDlet-Version: 0.1.0
 MIDlet-Vendor: White Waves
-MIDlet-1: White Waves, , com.whitewaves.WhiteWavesMIDlet
+MIDlet-1: White Waves, /icon.png, com.whitewaves.WhiteWavesMIDlet
+MIDlet-Icon: /icon.png
 MicroEdition-Configuration: CLDC-1.1
 MicroEdition-Profile: MIDP-2.0

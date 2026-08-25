@@ -60,6 +60,9 @@ Get-ChildItem -Path $verifiedDir -Recurse -Filter '*.class' | ForEach-Object {
     [System.IO.File]::WriteAllBytes($_.FullName, $bytes)
 }
 
+Write-Output "Copying resources..."
+Copy-Item (Join-Path $root 'src\res\icon.png') (Join-Path $verifiedDir 'icon.png')
+
 Write-Output "Packaging jar..."
 & jar cfm $jarPath $manifestSrc -C $verifiedDir .
 if ($LASTEXITCODE -ne 0) {
